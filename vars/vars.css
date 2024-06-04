@@ -1,6 +1,8 @@
 :root {
+	--font-main: 'Golos', sans-serif;
+	--font-title: 'Merriweather', sans-serif;
+  /* --font-main: 'Golos', sans-serif; */
 
-  --font-main: 'Golos', sans-serif;
-  --font-main: 'Golos', sans-serif;
-  --font-main: 'Golos', sans-serif;
+	--text-color: #313131;
+	--text-color-light: #595653;
 }
