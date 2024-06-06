@@ -1,5 +1,6 @@
 .root {
 	font-family: var(--font-main);
+	color: var(--text-color);
 	font-style: normal;
 	font-weight: 400;
 

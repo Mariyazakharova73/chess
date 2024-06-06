@@ -1,8 +1,15 @@
 :root {
 	--font-main: 'Golos', sans-serif;
 	--font-title: 'Merriweather', sans-serif;
-  /* --font-main: 'Golos', sans-serif; */
+	/* --font-main: 'Golos', sans-serif; */
 
 	--text-color: #313131;
 	--text-color-light: #595653;
+	--text-color-white: #fff;
+	--text-color-dark: #1f1f1f;
+
+	--ui-accent-color: #fbce51;
+	--ui-white-color: #fff;
+	--ui-dark-color: #1f1f1f;
+	--ui-red-color: #f54932;
 }
