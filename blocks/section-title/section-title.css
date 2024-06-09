@@ -1,0 +1,6 @@
+.section-title {
+	font-family: var(--font-title);
+	font-size: clamp(36px, 1.824rem + 1.82vw, 54px);
+	line-height: 1.2;
+	text-transform: uppercase;
+}

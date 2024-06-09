@@ -1,0 +1,194 @@
+.stages {
+	padding-top: clamp(120px, 5.608rem + 8.07vw, 200px);
+	border: 1px solid red;
+}
+
+.stages__title {
+	max-width: 806px;
+	display: inline-block;
+}
+
+.stages__title::after {
+	content: 'Будущие источники обогащения васюкинцев';
+	margin-bottom: 10px;
+	margin-left: 5px;
+
+	font-size: 20px;
+	line-height: 1.2;
+	font-family: var(--font-main);
+	color: var(--text-color-blue);
+
+	text-transform: none;
+	max-width: 280px;
+	line-clamp: 2;
+	display: -webkit-inline-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	vertical-align: middle;
+}
+
+@media screen and (max-width: 1365px) {
+	.stages__title::after {
+		margin-bottom: 0;
+		margin-left: 0;
+		display: block;
+		-webkit-line-clamp: 1;
+		max-width: 600px;
+	}
+}
+
+.stages__list-container {
+	padding-top: 54px;
+	position: relative;
+	border: 1px solid red;
+}
+
+@media screen and (max-width: 1365px) {
+	.stages__list-container {
+		margin-top: 20px;
+		padding-top: 128px;
+	}
+}
+
+.stages__list {
+	display: grid;
+	grid-template-columns: repeat(3, 394px);
+	grid-template-rows: 112px 112px 136px;
+	gap: 20px;
+}
+
+@media screen and (max-width: 1365px) {
+	.stages__list {
+		grid-template-columns: repeat(auto-fill, minmax(335px, 1fr));
+		grid-template-rows: auto;
+		gap: 15px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.stages__list {
+		overflow: hidden;
+		grid-template-columns: 1fr;
+		gap: 0;
+		position: relative;
+		height: 300px;
+	}
+}
+
+.stages__item {
+	padding: 20px;
+	display: flex;
+	gap: 16px;
+	background-image: url(../../img/stages-item-bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 20px;
+	line-height: 1.2;
+	font-weight: 500;
+}
+
+@media screen and (max-width: 1365px) {
+	.stages__item {
+		padding-top: 62px;
+		padding-bottom: 62px;
+		padding-right: 24px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.stages__item {
+		font-size: 18px;
+	}
+}
+/* --- child ---*/
+@media screen and (max-width: 768px) {
+	.stages__item:nth-child(1),
+	.stages__item:nth-child(4) {
+		padding-bottom: 28px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.stages__item:nth-child(2),
+	.stages__item:nth-child(5) {
+		padding-top: 0;
+	}
+}
+/* --- child 3 ---*/
+.stages__item:nth-child(3) {
+	grid-row: span 2;
+}
+
+@media screen and (max-width: 1365px) {
+	.stages__item:nth-child(3) {
+		grid-row: span 1;
+	}
+}
+@media screen and (max-width: 768px) {
+	.stages__item:nth-child(3) {
+		grid-row: span 2;
+	}
+}
+/* --- child 7 ---*/
+.stages__item:nth-child(7) {
+	grid-column: span 2;
+	padding-right: 290px;
+}
+
+@media screen and (max-width: 1365px) {
+	.stages__item:nth-child(7) {
+		grid-column: span 1;
+		padding-right: 24px;
+		justify-self: center;
+	}
+}
+
+.stages__item-number {
+	width: 36px;
+	height: 36px;
+	padding: 11px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background-color: var(--ui-white-color);
+	font-weight: 600;
+}
+
+.stages__item-text {
+}
+
+.stages__image {
+	position: absolute;
+	right: -65px;
+	bottom: 0;
+}
+
+@media screen and (max-width: 1365px) {
+	.stages__image {
+		top: 25px;
+		left: 0;
+		bottom: none;
+		right: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.stages__image {
+		top: 0;
+	}
+}
+
+.stages__slider {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.stages__slider {
+		margin-top: 28px;
+		display: flex;
+		justify-content: center;
+	}
+}

@@ -8,7 +8,7 @@
 	</head>
 	<body class="root">
 		<div class="page">
-			<header class="header">
+			<header class="header none">
 				<div class="header__content-wrapper">
 					<div class="header__logo">
 						<img class="header__logo-img" src="./img/logo.svg" alt="Логотип." />
@@ -42,17 +42,163 @@
 			</header>
 
 			<main class="content">
-				<div class="ticker">
+				<div class="ticker none">
 					<p class="ticker__text">
 						Дело помощи утопающим — дело рук самих утопающих! - Шахматы двигают
 						вперед не только культуру, но и экономику! - Лед тронулся, господа
 						присяжные заседатели!
 					</p>
 				</div>
-				<section aria-label="Support."></section>
+				<div class="container">
+					<section class="support none" id="support">
+						<div class="support__header">
+							<h2 class="support__header-title">
+								<span class="support__text-start paragraph">
+									Чтобы&nbsp;поддержать<br />Международный васюкинский<br />турнир
+								</span>
+								<span class="support__text-end paragraph">
+									посетите лекцию на тему:
+									<span class="paragraph paragraph__accent"
+										>«Плодотворная дебютная идея»</span
+									>
+								</span>
+							</h2>
+							<img
+								class="support__header-img"
+								src="./img/support-header.jpg"
+								alt="Игра в шахматы."
+							/>
+						</div>
+						<div class="support__main">
+							<div class="support__main-bg">
+								<div class="support__main-bg-mask"></div>
+								<div class="support__main-img"></div>
+							</div>
+							<div class="support__text-wrapper">
+								<h2>
+									<span class="paragraph">
+										и Сеанс
+										<span class="paragraph paragraph__accent"
+											>одновременной игры в&nbsp;шахматы на&nbsp;160
+											досках</span
+										>
+										гроссмейстера О.&nbsp;Бендера
+									</span>
+								</h2>
+								<ul class="support__table">
+									<li class="support__table-item">Место проведения:</li>
+									<li class="support__table-item">Клуб «Картонажник»</li>
+									<li class="support__table-item">Дата и время мероприятия:</li>
+									<li class="support__table-item">22 июня 1927 г. в 18:00</li>
+									<li class="support__table-item">
+										Стоимость входных билетов:
+									</li>
+									<li class="support__table-item">20 коп.</li>
+									<li class="support__table-item grid-item-7">
+										Плата за игру:
+									</li>
+									<li class="support__table-item grid-item-8">50 коп.</li>
+									<li class="support__table-item">Взнос на телеграммы:</li>
+									<li class="support__table-item">
+										<span class="strikethrough-text">100 руб</span>. 21 руб. 16
+										коп.
+									</li>
+								</ul>
+								<p class="support__info accent-text">
+									По всем вопросам обращаться в&nbsp;администрацию к К.
+									Михельсону
+								</p>
+							</div>
+						</div>
+					</section>
+					<section class="stages">
+						<h2 class="stages__title section-title">
+							Этапы преображения Васюков
+						</h2>
+						<div class="stages__list-container">
+							<ul class="stages__list">
+								<li class="stages__item">
+									<p class="stages__item-number">1</p>
+									<p class="stages__item-text">
+										Строительство железнодорожной магистрали&nbsp;Москва-Васюки
+									</p>
+								</li>
+								<li class="stages__item">
+									<p class="stages__item-number">2</p>
+									<p class="stages__item-text">
+										Открытие фешенебельной гостиницы&nbsp;«Проходная пешка»
+										и&nbsp;других небоскрёбов
+									</p>
+								</li>
+								<li class="stages__item">
+									<p class="stages__item-number">3</p>
+									<p class="stages__item-text">
+										Поднятие сельского хозяйства в&nbsp;радиусе на&nbsp;тысячу
+										километров: производство овощей, фруктов, икры, шоколадных
+										конфет
+									</p>
+								</li>
+								<li class="stages__item">
+									<p class="stages__item-number">4</p>
+									<p class="stages__item-text">
+										Строительство дворца для&nbsp;турнира
+									</p>
+								</li>
+								<li class="stages__item">
+									<p class="stages__item-number">5</p>
+									<p class="stages__item-text">
+										Размещение гаражей для&nbsp;гостевого<br />автотранспорта
+									</p>
+								</li>
+								<li class="stages__item">
+									<p class="stages__item-number">6</p>
+									<p class="stages__item-text">
+										Постройка сверхмощной радиостанции для&nbsp;передачи всему
+										миру сенсационных результатов
+									</p>
+								</li>
+								<li class="stages__item">
+									<p class="stages__item-number">7</p>
+									<p class="stages__item-text">
+										Создание аэропорта «Большие Васюки» с&nbsp;регулярным
+										отправлением почтовых самолётов и дирижаблей во&nbsp;все
+										концы света, включая Лос-Анжелос и&nbsp;Мельбурн
+									</p>
+								</li>
+							</ul>
+							<img
+								class="stages__image"
+								src="./img/airplane.png"
+								alt="Самолет."
+							/>
+						</div>
+						<!-- slider -->
+						<div class='stages__slider'>
+							<div class="slider__bth-container">
+								<button
+									class="slider__bth slider__bth_left"
+									type="button"
+								></button>
+								<ul class="slider__dots-list">
+									<li class="slider__dots-item slider__dots-item_active"></li>
+									<li class="slider__dots-item"></li>
+									<li class="slider__dots-item"></li>
+									<li class="slider__dots-item"></li>
+									<li class="slider__dots-item"></li>
+								</ul>
+	
+								<button
+									class="slider__bth slider__bth_right"
+									type="button"
+								></button>
+							</div>
+						</div>
+					</section>
+				</div>
 			</main>
 
 			<footer class="footer">ggggg</footer>
 		</div>
+		<script src="./js/main.js"></script>
 	</body>
 </html>
