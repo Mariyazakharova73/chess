@@ -36,11 +36,17 @@
 	align-items: center;
 	justify-content: center;
 }
+
 .slider__dots-item {
 	width: 10px;
 	height: 10px;
 	border-radius: 50%;
 	background-color: #d6d6d6;
+	transition: transform 0.3s ease;
+}
+
+.slider__dots-item:hover {
+	transform: scale(1.3);
 }
 
 .slider__dots-item_active {
