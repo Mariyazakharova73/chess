@@ -1,0 +1,17 @@
+.header__bg-item_type_chess {
+	z-index: 4;
+	background-image: url(../../../../img/horse.png);
+	bottom: 0;
+	right: calc(50% - 625px);
+	width: 486px;
+	height: 218px;
+}
+
+@media screen and (max-width: 768px) {
+	.header__bg-item_type_chess {
+		width: 90px;
+		height: 120px;
+		right: calc(50% - 45px);
+		background-image: url(../../../../img/small-horse.png);
+	}
+}

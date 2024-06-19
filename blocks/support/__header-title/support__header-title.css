@@ -1,0 +1,9 @@
+.support__header-title {
+	margin-top: 27px;
+}
+
+@media screen and (max-width: 1026px) {
+	.support__header-title {
+		display: contents;
+	}
+}

@@ -1,0 +1,11 @@
+.header__content-wrapper {
+	padding-top: 26px;
+	margin: 0 clamp(72px, -9.37rem + 16.25vw, 162px);
+}
+
+@media screen and (max-width: 1366px) {
+	.header__content-wrapper {
+		padding-top: clamp(18px, 0.936rem + 0.81vw, 26px);
+		margin: 0 clamp(20px, 0.02rem + 5.25vw, 72px);
+	}
+}

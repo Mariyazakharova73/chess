@@ -1,0 +1,11 @@
+.support__table {
+	margin-top: clamp(44px, 2.372rem + 1.61vw, 60px);
+	display: grid;
+	grid-template-columns: 0.76fr 1fr;
+}
+
+@media screen and (max-width: 768px) {
+	.support__table {
+		grid-template-columns: auto 1fr;
+	}
+}

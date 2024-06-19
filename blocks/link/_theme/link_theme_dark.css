@@ -1,0 +1,9 @@
+.link_theme_dark {
+	background-color: var(--ui-dark-color);
+	color: var(--text-color-white);
+}
+
+.link_theme_dark:hover {
+	background-color: var(--ui-accent-color);
+	color: var(--text-color-dark);
+}

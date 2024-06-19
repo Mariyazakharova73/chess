@@ -1,0 +1,26 @@
+.stages__image {
+	position: absolute;
+	right: -65px;
+	bottom: 0;
+	z-index: 3;
+}
+
+@media screen and (max-width: 1365px) {
+	.stages__image {
+		top: -20px;
+		left: 0;
+		bottom: none;
+		right: none;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.stages__image {
+		width: 335px;
+		height: 182px;
+		top: 3px;
+		left: 7px;
+		object-fit: cover;
+		transform: rotate(-4deg);
+	}
+}

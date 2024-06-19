@@ -1,0 +1,4 @@
+.header__info-wrapper {
+	margin-top: clamp(40px, 1.98rem + 2.22vw, 62px);
+	max-width: 542px;
+}

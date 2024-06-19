@@ -1,0 +1,12 @@
+.support__main {
+	margin-top: clamp(25px, 0.64rem + 3.94vw, 64px);
+	display: grid;
+	gap: 17px;
+	grid-template-columns: 500px 1fr;
+}
+
+@media screen and (max-width: 1026px) {
+	.support__main {
+		grid-template-columns: 1fr;
+	}
+}

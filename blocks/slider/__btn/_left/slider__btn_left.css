@@ -1,0 +1,6 @@
+.slider__btn_left {
+	top: 50%;
+	left: 0;
+	background-image: url(../../../../img/btn-left.svg);
+	background-position: 13.5px center;
+}

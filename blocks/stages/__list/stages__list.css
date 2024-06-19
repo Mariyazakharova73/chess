@@ -1,0 +1,14 @@
+.stages__list {
+	display: grid;
+	grid-template-columns: repeat(3, 394px);
+	grid-template-rows: 112px 112px 136px;
+	gap: 20px;
+}
+
+@media screen and (max-width: 1365px) {
+	.stages__list {
+		grid-template-columns: repeat(auto-fill, minmax(335px, 1fr));
+		grid-template-rows: auto;
+		gap: 15px;
+	}
+}

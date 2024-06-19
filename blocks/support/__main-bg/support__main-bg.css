@@ -1,0 +1,19 @@
+.support__main-bg {
+	position: relative;
+	top: -30px;
+	left: -27px;
+	min-height: 568px;
+}
+
+@media screen and (max-width: 1026px) {
+	.support__main-bg {
+		top: 0;
+		left: 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.support__main-bg {
+		min-height: 420px;
+	}
+}

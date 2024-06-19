@@ -1,0 +1,11 @@
+.stages__item-number {
+	width: 36px;
+	height: 36px;
+	padding: 11px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background-color: var(--ui-white-color);
+	font-weight: 600;
+}

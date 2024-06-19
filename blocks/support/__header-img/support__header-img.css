@@ -1,0 +1,18 @@
+.support__header-img {
+	width: 394px;
+	height: 250px;
+}
+
+@media screen and (max-width: 1026px) {
+	.support__header-img {
+		margin: 0 auto;
+		order: 1;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.support__header-img {
+		width: 335px;
+		height: 213px;
+	}
+}

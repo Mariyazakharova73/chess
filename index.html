@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" href="./pages/index.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,10 +28,10 @@
 							васюкинского турнира по шахматам
 						</p>
 						<div class="header__link-wrapper">
-							<a class="link link_theme_dark transition" href="#support">
+							<a class="link link_theme_dark" href="#support">
 								Поддержать шахматную мысль
 							</a>
-							<a class="link link_theme_light transition" href="#info"
+							<a class="link link_theme_light" href="#info"
 								>Подробнее о&nbsp;турнире</a
 							>
 						</div>
@@ -37,10 +41,9 @@
 					<div class="header__bg-item header__bg-item_type_circle"></div>
 					<div class="header__bg-item header__bg-item_type_mask"></div>
 					<div class="header__bg-item header__bg-item_type_city"></div>
-					<div class="header__bg-item header__bg-item_type_chees"></div>
+					<div class="header__bg-item header__bg-item_type_chess"></div>
 				</div>
 			</header>
-
 			<main class="content">
 				<div class="ticker">
 					<p class="ticker__text">
@@ -172,33 +175,128 @@
 								alt="Самолет."
 							/>
 						</div>
-						<!-- slider -->
-						<div class='stages__slider'>
-							<div class="slider__bth-container">
-								<button
-									class="slider__bth slider__bth_left"
-									type="button"
-								></button>
-								<ul class="slider__dots-list">
-									<li class="slider__dots-item slider__dots-item_active"></li>
-									<li class="slider__dots-item"></li>
-									<li class="slider__dots-item"></li>
-									<li class="slider__dots-item"></li>
-									<li class="slider__dots-item"></li>
-								</ul>
-	
-								<button
-									class="slider__bth slider__bth_right"
-									type="button"
-								></button>
-							</div>
+					</section>
+					<section class="members" id="info">
+						<h2 class="members__title section-title">Участники турнира</h2>
+						<div class="members__swiper swiper">
+							<ul class="members__list swiper-wrapper">
+								<li class="members__list-item swiper-slide">
+									<img
+										class="members__image"
+										src="./img/members-item.jpg"
+										alt="Участник турнира."
+									/>
+									<div>
+										<p class="members__name">Хозе-Рауль Капабланка</p>
+										<p class="members__job">Чемпион мира по шахматам</p>
+									</div>
+									<button class="members__btn transition" type="button">
+										Подробнее
+									</button>
+								</li>
+								<li class="members__list-item swiper-slide">
+									<img
+										class="members__image"
+										src="./img/members-item.jpg"
+										alt="Участник турнира."
+									/>
+									<div>
+										<p class="members__name">Эммануил Ласкер</p>
+										<p class="members__job">Чемпион мира по шахматам</p>
+									</div>
+									<button class="members__btn transition" type="button">
+										Подробнее
+									</button>
+								</li>
+								<li class="members__list-item swiper-slide">
+									<img
+										class="members__image"
+										src="./img/members-item.jpg"
+										alt="Участник турнира."
+									/>
+									<div>
+										<p class="members__name">Александр Алехин</p>
+										<p class="members__job">Чемпион мира по шахматам</p>
+									</div>
+									<button class="members__btn transition" type="button">
+										Подробнее
+									</button>
+								</li>
+								<li class="members__list-item swiper-slide">
+									<img
+										class="members__image"
+										src="./img/members-item.jpg"
+										alt="Участник турнира."
+									/>
+									<div>
+										<p class="members__name">Арон Нимцович</p>
+										<p class="members__job">Чемпион мира по шахматам</p>
+									</div>
+									<button class="members__btn transition" type="button">
+										Подробнее
+									</button>
+								</li>
+								<li class="members__list-item swiper-slide">
+									<img
+										class="members__image"
+										src="./img/members-item.jpg"
+										alt="Участник турнира."
+									/>
+									<div>
+										<p class="members__name">Рихард Рети</p>
+										<p class="members__job">Чемпион мира по шахматам</p>
+									</div>
+									<button class="members__btn transition" type="button">
+										Подробнее
+									</button>
+								</li>
+								<li class="members__list-item swiper-slide">
+									<img
+										class="members__image"
+										src="./img/members-item.jpg"
+										alt="Участник турнира."
+									/>
+									<div>
+										<p class="members__name">Остап Бендер</p>
+										<p class="members__job">Гроссмейстер</p>
+									</div>
+									<button class="members__btn transition" type="button">
+										Подробнее
+									</button>
+								</li>
+							</ul>
+
+							<button
+								class="slider__btn slider__btn_left"
+								type="button"
+							></button>
+
+							<button
+								class="slider__btn slider__btn_right"
+								type="button"
+							></button>
+
+							<div class="swiper-pagination"></div>
 						</div>
 					</section>
 				</div>
+				<div class="ticker">
+					<p class="ticker__text">
+						Дело помощи утопающим — дело рук самих утопающих! - Шахматы двигают
+						вперед не только культуру, но и экономику! - Лед тронулся, господа
+						присяжные заседатели!
+					</p>
+				</div>
 			</main>
-
-			<footer class="footer">ggggg</footer>
+			<footer class="footer">
+				<p class="footer__text">
+					Все персонажи, события и цитаты являются вымышленными и не принадлежат
+					создателям сайта. С подробностями можно познакомиться в главе XXXIV
+					романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».
+				</p>
+			</footer>
 		</div>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 		<script src="./js/main.js"></script>
 	</body>
 </html>

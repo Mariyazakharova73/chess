@@ -1,0 +1,5 @@
+.footer {
+	padding: 40px clamp(20px, 0.02rem + 5.25vw, 72px)
+		clamp(60px, 3.466rem + 1.21vw, 72px);
+	background-color: var(--bg-color);
+}

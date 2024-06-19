@@ -1,0 +1,19 @@
+.members__btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px;
+	width: 113px;
+	height: 35px;
+	border-radius: 62px;
+	border: 1px solid var(--ui-blue-color);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.2;
+	color: var(--text-color-blue);
+}
+
+.members__btn:hover {
+	color: var(--ui-accent-color);
+	border: 1px solid var(--ui-accent-color);
+}

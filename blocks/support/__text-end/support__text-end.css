@@ -1,0 +1,10 @@
+.support__text-end {
+	display: inline;
+}
+
+@media screen and (max-width: 1026px) {
+	.support__text-end {
+		display: block;
+		order: 2;
+	}
+}

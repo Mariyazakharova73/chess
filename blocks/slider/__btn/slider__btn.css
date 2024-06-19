@@ -1,0 +1,20 @@
+.slider__btn {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background-color: var(--ui-black-color);
+	transition: background-color 0.8s ease-in-out;
+	background-repeat: no-repeat;
+	background-size: 7px 14px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 10;
+}
+
+.slider__btn:hover {
+	background-color: var(--ui-accent-color);
+}
+
+.slider__btn:disabled {
+	background-color: #d6d6d6;
+}

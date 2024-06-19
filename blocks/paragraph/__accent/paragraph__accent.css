@@ -1,0 +1,4 @@
+.paragraph__accent {
+	font-weight: 700;
+	color: var(--ui-red-color);
+}

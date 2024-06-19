@@ -1,0 +1,14 @@
+.header__link-wrapper {
+	margin-top: clamp(32px, 1.811rem + 0.81vw, 40px);
+	display: flex;
+	gap: 16px;
+	justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+	.header__link-wrapper {
+		flex-direction: column;
+		align-items: center;
+		gap: 14px;
+	}
+}

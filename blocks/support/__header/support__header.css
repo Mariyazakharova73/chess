@@ -1,0 +1,11 @@
+.support__header {
+	display: flex;
+	gap: 64px;
+}
+
+@media screen and (max-width: 1026px) {
+	.support__header {
+		flex-wrap: wrap;
+		gap: 24px;
+	}
+}

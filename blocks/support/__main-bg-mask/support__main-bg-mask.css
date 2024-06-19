@@ -1,0 +1,15 @@
+.support__main-bg-mask {
+	position: absolute;
+	width: 100%;
+	min-height: 568px;
+	mix-blend-mode: color-burn;
+	z-index: 1;
+	background-image: url(../../img/support-bg.png);
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+	.support__main-bg-mask {
+		min-height: 420px;
+	}
+}

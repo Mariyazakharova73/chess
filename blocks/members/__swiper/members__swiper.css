@@ -1,0 +1,4 @@
+.members__swiper {
+	margin-top: clamp(40px, 2.027rem + 2.02vw, 60px);
+	position: relative;
+}

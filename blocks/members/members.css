@@ -1,0 +1,5 @@
+.members {
+	padding-top: clamp(120px, 5.608rem + 8.07vw, 200px);
+	padding-bottom: clamp(100px, 5.304rem + 4.04vw, 140px);
+}
+

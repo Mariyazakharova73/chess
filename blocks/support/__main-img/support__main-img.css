@@ -1,0 +1,29 @@
+.support__main-img {
+	position: absolute;
+	width: 530px;
+	min-height: 568px;
+	background-image: url(../../../img/support-main.png);
+	background-color: var(--ui-white-color);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+@media screen and (max-width: 1026px) {
+	.support__main-img {
+		left: 50%;
+		transform: translateX(-50%);
+		width: 100%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.support__main-img {
+		min-height: 420px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.support__main-img {
+		width: 375px;
+	}
+}

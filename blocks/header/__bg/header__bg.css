@@ -1,0 +1,16 @@
+.header__bg {
+	background-color: var(--bg-color);
+	position: relative;
+	overflow: hidden;
+	min-height: 700px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+	.header__bg {
+		min-height: 750px;
+	}
+}

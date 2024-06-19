@@ -1,0 +1,30 @@
+.header__bg-item_type_circle {
+	z-index: 1;
+	background-image: url(../../../../img/circle.png);
+	left: 49.5%;
+	bottom: 11.5%;
+	width: 660px;
+	height: 660px;
+	animation: rotate 30s linear infinite;
+}
+
+@media screen and (max-width: 768px) {
+	.header__bg-item_type_circle {
+		width: 297px;
+		height: 297px;
+		background-size: cover;
+		left: auto;
+		bottom: auto;
+		left: calc(50% - 155px);
+		bottom: 5%;
+	}
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

@@ -1,0 +1,18 @@
+.link_theme_light {
+	border: 2px solid var(--ui-dark-color);
+	background-color: transparent;
+	color: var(--text-color-dark);
+}
+
+@media screen and (max-width: 500px) {
+	.link_theme_light {
+		background-color: var(--ui-white-color);
+		color: var(--ui-dark-color);
+		border: none;
+	}
+}
+
+.link_theme_light:hover {
+	background-color: var(--ui-dark-color);
+	color: var(--text-color-white);
+}

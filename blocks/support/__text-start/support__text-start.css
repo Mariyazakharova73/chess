@@ -1,0 +1,10 @@
+.support__text-start {
+	display: inline;
+}
+
+@media screen and (max-width: 1026px) {
+	.support__text-start {
+		display: block;
+		order: 1;
+	}
+}
